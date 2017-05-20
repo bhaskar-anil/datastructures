@@ -62,6 +62,14 @@ public class Stack<T> {
 		intStack.pop();
 		
 		System.out.println(intStack.toString());
+		
+		Stack<String> strStack = new Stack<>();
+		
+		strStack.push("Kamal");
+		strStack.push("Ritika");
+		strStack.push("Chusia");
+		
+		System.out.println(strStack.toString());
 	}
 
 }
